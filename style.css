@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.section1 {
+    background-image: url('intro.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+
+    margin: 0px 0px 0px 350px;
+    padding: 70px 0;
+    color: yellow;
+    font: 30px;
+
+}
+
+.text h1 {
+    padding: 20px 0px 0px 0px;
+}
+
+.text p {
+    padding: px 0px;
+}
+
+.boldtext {
+    color: yellow;
+    padding-top: 10px;
+}
+
+.text>h1>span::selection {
+    color: white;
+}
+
+.boldtext>h2::selection {
+    color: white;
+}
+
+.text>p>span::selection {
+    color: white;
+}
+
+
+.section2 {
+    min-height: 50px;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.section2::selection {
+    color: yellow;
+}
+
+.section2>b::selection {
+    color: yellow;
+}
+
+
+.section3 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.card {
+    height: 280px;
+    width: 220px;
+    margin: 41px 27px;
+    border-radius: 5px;
+    padding: 15px;
+    border-bottom-style: groove;
+
+
+
+}
+
+.card1 {
+    background-color: rgb(224, 224, 196);
+
+
+
+
+}
+
+
+.card2 {
+    background-color: rgb(224, 224, 196);
+
+
+}
+
+.card3 {
+    background-color: rgb(224, 224, 196);
+    ;
+
+}
+
+.card>p {
+    color: rgb(0, 0, 0);
+}
+
+.imgall {
+    border-radius: 50%;
+}
+
+.textall {
+    margin-top: 10px;
+}
+
+.textall>h3 {
+    color: red;
+}
+
+.textall>p {
+    font-size: 16px;
+}
+
+.textall>h3::selection {
+    color: black;
+}
+
+.textall>p::selection {
+    color: red;
+    background-color: yellow;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    padding: 0px 5px;
+
+
+}
+
+.left {
+
+    background-color: rgb(68, 108, 68);
+    width: 50%;
+    border-radius: 2px;
+}
+
+.right {
+
+    background-color: brown;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.textme {
+    padding: 20px;
+    color: white;
+
+}
+
+
+.textme>p {
+    /* font-size: 14px; */
+    padding: 5px 0px;
+
+}
+
+.textme>h2 {
+    padding-bottom: 10px;
+}
+
+.textme>p::selection {
+    color: yellow;
+}
+
+.textme>h2::selection {
+    color: black;
+}
+
+footer {
+    min-height: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer>p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+}
+
+footer>p::selection {
+    color: yellow;
+}
+
+footer>p>b::selection {
+    color: yellow;
+}
+
+.card:hover {
+
+    box-shadow: 5px 10px #888888;
+    /* animation: mymove 1s infinite; */
+}
+
+/* .card: */
+/* @keyframes mymove {
+    from {
+        left: 2px;
+    }
+
+    to {
+        right: 5px;
+    }
+} */
+
+
+
+@media only screen and (max-width: 868px) {
+
+    .section3 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        /* background-color: yellow; */
+    }
+}
+
+@media only screen and (max-width: 614px) {
+
+    .text {
+        margin-left: 20%;
+
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    .card {
+        margin: 10px;
+    }
+}
